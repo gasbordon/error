@@ -1,0 +1,184 @@
+h1{background:#0D078D;
+color: #FFFFFF;text-transform: uppercase; font: "arial";
+text-align: center;
+padding: 10PX;
+font-family: 'Fredoka One', cursive;
+
+opacity: .5;
+position: relative;
+
+
+}
+
+body{
+background: url("../img/fondo.jpg");
+
+background-size: 100%;
+
+background-repeat: no-repeat;
+
+background-position: center center;
+
+background-attachment: fixed;
+
+position: relative;
+
+padding-bottom: 2em;
+}
+
+h3{background: ; color: #FFFFFF; font-size: xx-large;
+  text-align: center;
+}
+
+h4{color: #FFFFFF ; font-size: x-large;
+text-decoration: underline;
+}
+
+li{font-size: large;}
+
+header{ background: url("../img/pastelera.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+  width: 100%;
+    margin: 1%auto;
+    border: 5px solid #FFFFFF;
+float: left;
+overflow: auto;
+box-sizing: border-box;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  clear: both;
+  margin: 1%;
+
+
+}
+
+
+
+
+.menu{
+  list-style: none;
+  padding: 0%;
+  background: black;
+width: auto;
+  margin: auto;
+text-align: center;
+opacity: .5;
+
+
+
+
+
+  }
+
+  .menu li a{
+    text-decoration: none;
+      flex-direction: row;
+    color: orange;
+    padding: 20px;
+    display: block;
+    display: inline-block;
+    text-align: center;
+    overflow: inherit;
+    font-family: 'Righteous', cursive;
+    z-index:
+
+
+
+
+
+  }
+
+  .menu li{
+    display: inline-block;
+    text-align: center;
+
+
+
+
+
+  }
+
+  .menu li:hover{
+    background: #F9E79F;
+
+
+  }
+
+.container-boton{
+  background-color: #0EB606;
+
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 25px;
+  padding: 20px;
+  transition: ease 0.3s;
+
+}
+
+.container-boton:hover{
+
+  transition: 0.3s;
+  width: 10%;
+
+}
+
+.boton{
+  width: 80px;
+  transition: ease 1s;
+}
+
+
+
+
+span:hover{
+  color: red;
+  background-color: white;
+}
+
+
+
+.redes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.contflex section li{
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.contflex aside li{
+display: flex;
+justify-content: space-between;
+
+}
+
+img{
+  width: 500px;
+  flex-wrap: wrap;
+}
